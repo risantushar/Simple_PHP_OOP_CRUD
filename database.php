@@ -9,7 +9,7 @@ class database{
 		$this->host='localhost';
 		$this->dbusername='root';
 		$this->dbpassword='';
-		$this->dbname='crud';
+		$this->dbname='';
 		$con=new mysqli($this->host,$this->dbusername,$this->dbpassword,$this->dbname);
 		return $con;
 	}
